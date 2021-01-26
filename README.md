@@ -1,1 +1,1 @@
-# css-constyle
+# css-constyle this file was created as practice for all the CSS done thus far. I tried to utilize as much CSS as practical without causing too much clutter. View comment and critique
