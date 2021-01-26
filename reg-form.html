@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Styles Conference</title>
+    <link rel="stylesheet" href="style/reset.css" type="text/css" media="all">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/appear.css" type="text/css" media="all">
+    <link rel="stylesheet" href="style/wordart.css" type="text/css" media="all">
+  </head>
+  <body>
+    <header class="container prim-header all" id="top">
+      <nav class="head-bar">
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="venue.html">Venue</a>
+        <a href="vintage.html">Vintage Pics</a>
+      </nav>
+       <section class="logo"><a class="pr nt ed" href="index.html"><span>C</span>SS<br><span>S</span>tyles<br><span>C</span>onference</a></section>
+
+    </header>
+    
+      <div class="all"> <!--div used to contain floated elements. Technique called clearfix/cf-->
+      <form class="regstr">
+        <section  class="hero container">
+          <!--Heading for the registration form-->
+          <section id="regst-now" class="formbutn"><a id="rgstr" class="formbutn-altt" href="reg-form.html">Hurry! Register Now!!</a></section>
+            <h3>August 24th &ndash; 26th &mdash; Chicago, IL</h3>
+            <a class="crimson" href="#reg"><span>Registration Starts Here!!</span></a>
+          
+            <p>Every year the biggest web designers and front end developers descend on Chicago to discuss the latest technological developments in web development. Join us this August. </p>
+            
+            <!--Email sign up inputs-->
+            <section id="reg" class="mailin">
+              <p><span>Please fill in this form to create an account</span></p>
+              <!--hr tag inserts a horizontal line-->
+              <hr>
+              <label for="first name"><strong>First Name</strong></label><br>
+              <input type="text" placeholder="Enter First Name" name="firstname"  class="fill" id="firstname" required><br>
+
+              <label for="last name"><strong>Last Name</strong></label><br>
+              <input type="text" placeholder="Enter Last Name" name="lastname"  class="fill" id="lastname" required><br>
+              
+              <label for="address"><strong>Address</strong></label><br>
+              <input type="text" placeholder="Enter Address" name="address"  class="fill" id="address" required><br>
+
+              <label for="area code"><strong>Area Code</strong></label><br>
+              <input type="text" placeholder="Enter Area Code" name="areacode"  class="fill" id="areacode" required><br>
+
+                <label for="email"><strong>Email</strong></label><br>
+                <input type="text" placeholder="Enter Email" name="email"  class="fill" id="email" required><br>
+
+                <label for="psw"><strong>Password</strong></label><br>
+                <input type="password" placeholder="Enter Password" name="psw" class="fill" id="psw" required><br>
+
+                <label for="psw-repeat"><b>Confirm Password</b></label><br>
+                <input type="password" placeholder="Confirm Password" name="psw-confirm" class="fill" id="psw-cfirm" required>
+              <hr>
+            </section>
+
+                 <!--register of sign up input-->
+          <section class="sign-up">
+            <p>By creating an account you agree to our <a href="#reg"><span>Terms & Privacy</span></a></p>
+            <div class="membr">
+              <button type="submit">Register</button>
+            
+              <p><span>Already have an account? </span><a href="#reg">Sign in</a></p>
+            </div>
+          </section>
+      </form> 
+        </section>
+        <aside>
+          <h3>Sponsors</h3> 
+          <ul>
+            <li><a href="https://www.ibm.com" target="blank"><img src="images/sponsors/ibm.png" alt="Photo of IBM"></a></li>
+            <li><a href="https://www.apple.com" target="blank"><img src="images/sponsors/apple.png" alt="Photo of Apple"></a></li>
+            <li><a href="https://www.samsung.com/us" target="blank"><img src="images/sponsors/samsung.png" alt="Photo of Samsung"></a></li>
+            <li><a href="https://www.google.com" target="blank"><img src="images/sponsors/google.png" alt="Photo of Google"></a></li>
+            <li><a href="https://www.qualcomm.com" target="blank"><img src="images/sponsors/qualcom.png" alt="Photo of Qualcomm"></a></li>
+            <li><a href="https://www.microsoft.com" target="blank"><img src="images/sponsors/ms.png" alt="Photo of Microsoft"></a></li>
+          </ul>
+        </aside>
+          
+    </div>
+     
+    <footer class="container prim-footer all">
+      <a href="#top">Back to Top</a>  
+      <nav class="foot-bar">
+        <a href="https://profile.collegeboard.org/profile/ppi/participatingInstitutions.aspx" target="_blank">CSS School</a>
+        <a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">HTML School</a>
+        <a href="https://go.java/student-resources/" target="_blank">Java School</a>
+        <a href="https://www.udemy.com/" target="_blank">Learn Front End</a>
+        <a href="https://socialhackersacademy.org/" target="Back End Development">Back End Development</a>
+        <a href="https://www.glassdoor.com/Job/web-developer-jobs-SRCH_KO0,13.htm" target="_blank">Find Work</a>
+      </nav>
+      <small>&#169 CSS Styles Conference</small>
+    </footer>
+  </body>
+</html>

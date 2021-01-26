@@ -1,0 +1,485 @@
+/*“web-safe fonts.” There are only a handful of them, and the safest of the web-safe fonts are listed here:
+
+Arial, Courier New, Courier, Garamond, Georgia, Lucida Sans, Lucida Grande, Lucida, Palatino Linotype, Tahoma, Times New Roman, Times, Trebuchet, Verdana ====*/
+
+body {
+    margin-bottom: 10px;
+    padding: 10px 15px;   
+    line-height: 25px;
+    background-color: #ebebf3;
+    background: #f5c9ea; 
+    background: -webkit-linear-gradient(left, #ffffff, #fff4f7, #ffe5e5, #ffeed1, #eafbbedc, #c6efb4, #d0d1f7, #bda4bd);
+}
+
+.container{
+    width: 960px;
+    padding: 20px 0px;
+    margin: 0px auto;
+    align-items: justify;
+}
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h3, h5{
+    
+    margin-bottom: 10px;
+    padding-top: 10px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #000;
+}
+h1{
+    font-variant: small-caps;
+    font-size: 2.5em;
+    /*==== text-shadow values- H offset, V offset, Blur, color & a- alpha or opacity ====*/
+    text-shadow: 4px 4px 0px rgba(227, 164, 230, 0.6);
+}
+
+h3{
+    font-size: 1.4em;
+}
+h5{
+    font-size: 1.1em;
+}
+p{
+    text-indent: 2em;
+    word-spacing: 0.25em;
+    text-align: justify;
+}
+/*==== Target span in the container class with style ====*/
+
+.container span{
+    
+    font-weight: bold;
+    font-style: italic;
+    color: #b1248e;
+    
+}
+  
+/*====== Button for registration on "homepage" and "register page" ======= Styles are layered*/
+
+.btn{
+    border-radius: 5px;
+    box-shadow: 15px 10px 30px #5f9ea0, 15px 5px 20px #63e27d inset, 
+                5px 5px 15px 5px #eb5091, -2px 2px 15px #eb5091 inset;
+    display: block;
+    position: relative;
+    margin: 20px;
+    width: 35%;
+    height: 5%;
+    border: 2px solid #dfe2e5;
+    padding: 5px;
+    text-align: center;
+}
+
+.btnalt {
+    color: #0033ff;
+    
+    
+}
+
+/*==== CSS for registration form- class "regstr" containing email & sign-up inputs ====*/
+
+.regstr .container {
+    border-radius: 5px;
+    box-shadow: 15px 10px 30px #5f9ea0, 15px 5px 20px #63e27d inset, 
+                5px 5px 15px 5px #eb5091, -2px 2px 15px #eb5091 inset;
+    display: block;
+    position: relative;
+    margin: 30px 0px 0px 30px;
+    width: 65%;
+    border: 2px solid #dfe2e5;
+    padding: 5px;
+    text-align: center;
+}
+
+.regstr p{
+    text-indent: 0em;
+    padding: 20px;
+}
+
+/*==== CSS for the registration form heading ====*/
+
+.formbutn{
+    border-radius: 5px;
+    box-shadow: 15px 10px 30px #5f9ea0, 15px 5px 20px #63e27d inset, 
+                5px 5px 15px 5px #eb5091, -2px 2px 15px #eb5091 inset;
+    display: block;
+    position: relative;
+    margin: 20px;
+    width: 60%;
+    border: 2px solid #6ad42c;
+    padding: 5px;
+    left: 16%;
+}
+
+.formbutn-altt{
+    color: #0000ff;
+    text-align: center;
+    font-size: 2em;
+}
+
+.formbutn span{
+    font-size: 1.5em;
+}
+
+/*==== CSS for text "Registration Starts Here" ====*/
+
+
+.crimson span:hover{
+    font-size: 2em;
+    text-shadow: 15px 5px 20px #fbff04;
+    color: #dc143c;
+}
+
+
+
+/*==== CSS for email input ====*/
+
+.mailin{
+    border-radius: 5px;
+    box-shadow: 15px 10px 30px #5f9ea0, 15px 5px 20px #575757 inset, 
+                5px 5px 15px 5px #eb5091, -2px 2px 15px #eb5091 inset;
+    display: block;
+    position: relative;
+    margin: 20px;
+    width: 60%;
+    height: 25%;
+    border: 2px solid #c555db;
+    padding: 5px;
+    text-align: center;
+    left: 16%;
+    font-style: italic;
+}
+.mailin label, .mailin span, .fill{
+    color: #0000ff;
+    text-align: center;
+    font-size: 1em;
+    font-style: inherit;
+    width: 40%;
+}
+/*====font with "shorthand" value- font-style, font-variant, font-weight, font-size, line-height, font-family ====*/
+.mailin span{
+    font: italic small-caps bold 1.25em/1em Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 0.1em;
+    text-align: center;
+    align-items: center;
+}
+
+.mailin p{
+    text-indent: 0em;
+    padding: 5px;
+    text-align: center;
+}
+
+/*==== CSS for sign up input ====*/
+
+.sign-up {
+    border-radius: 5px;
+    box-shadow: 15px 10px 30px #5f9ea0, 15px 5px 20px #63e27d inset, 
+                5px 5px 15px 5px #eb5091, -2px 2px 15px #eb5091 inset;
+    display: block;
+    position: relative;
+    margin: 20px 20px 20px 20px;
+    width: 60%;
+    height: 15%;
+    border: 2px solid #c555db;
+    padding: 15px 5px 5px 5px;
+    text-align: center;
+    left: 16%;
+}
+.sign-up span{
+    font-style: italic;
+}
+.sign-up p{
+    word-spacing: 0.035em;
+    text-indent: 1em;
+    padding: 5px;
+    text-align: center;
+}
+
+.membr button, .membr p, .membr a {
+    color: #0000ff;
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+    margin: 10px;
+}
+.membr p{
+    word-spacing: 0.1em;
+    text-indent: 0em;
+    text-align: center;
+}
+
+/*==== CSS for "Register" and  "Signin" buttons ====*/
+
+.membr button:hover, .membr a:hover {
+    font-size: 2em;
+    text-shadow: 15px 5px 20px #fbff04;
+    color: #dc143c;
+    cursor: pointer;
+    box-shadow:  5px 5px 25px 5px #eb5091, -2px 2px 15px #eb5091 inset;
+    border: 2px solid #eb5091;
+    border-radius: 0.25em;
+}
+
+/*===== Homepage- styles using class "hero" ===== */
+
+.hero{
+    padding: 30px;
+}
+
+/*==== containing div of class "all" to maintain the normal flow of its floated elements ====*/
+
+.all:before{
+content:"";
+display: table;
+}
+.all:after{
+    clear: both;
+}
+.all{
+    clear: both;
+    *zoom: 1;
+}
+
+/*==== float- block-level element, aside ====*/
+aside{
+    float: right;
+    margin-right: 2.5%;
+    width: 20%;
+    height: 100%;
+    border: solid 1px #cdd0d8;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #ffc1c1;
+    margin-top: 30px;
+
+} 
+/*==== target selector, "img" rapped in "aside" tag ====*/
+aside img{
+    width: 95%;
+    height: 100px;
+    padding: 5px 0px;
+
+}
+.container{
+    float: left;
+    margin-left: 1.5%;
+    width: 70%;
+}
+
+/*==== clear footer of floated "aside" element of class "menu" ====*/
+footer{
+    clear: both;
+}
+/*==== Primary Header, containing logo with rainbow design ====*/
+
+.logo{
+    float: left;
+    border: 2px solid #648880;
+    border-radius: 1em;
+    box-shadow: 15px 10px 30px #5f9ea0, 15px 2px 20px #63e27d inset, 
+                5px 5px 15px 5px #eb5091, -2px 2px 20px #eb5091 inset;
+    padding: 10px 10px 5px 10px;
+    margin: 20px 5px;
+    text-align: center;
+    width: 230px;
+    height: 20%;
+    
+}
+
+.logo:hover {
+    box-shadow:  5px 5px 25px 5px #eb5091, -2px 2px 15px #eb5091 inset;
+    border: 2px solid #eb5091;
+}
+
+/* Target the font contained in the <a> tag of the logo directly, for the rainbow effect*/
+
+.pr {
+    font-family: Arial, sans-serif;
+    font-size: 1.55em;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+   /* -moz-osx-font-smoothing: grayscale; */
+    padding: 10px 10px 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: -0.15em;
+}
+  
+  .pr .nt{
+   /* transform: scale(0.5, 0.5);*/
+    text-transform: (scale(0.5, 0.5));
+   /* -moz-transform: scale(0.2, 0.2);
+    -o-transform: scale(0.2, 0.2);
+    -ms-transform: scale(0.2, 0.2);*/
+}
+  
+  .pr.nt.ed {
+    background: #ff00bf; 
+    background: -webkit-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #c67f03, #698f0173, #38721e, #0b13fd, #a804af);
+  /*background: -o-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #bafd0073, #55ac2f, #0b13fd, #a804af);
+    background: -moz-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #bafd0073, #55ac2f, #0b13fd, #a804af);
+    background: linear-gradient(to right, #b306a9, #ef2667, #f42e2c, #ffa509, #bafd0073, #55ac2f, #0b13fd, #a804af); */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*===== CSS for logo using "font-size" to target the first letter ====*/
+.pr.nt.ed span{
+    text-transform: capitalize;
+    font-size: 2.5em;
+}
+
+/*==== ":before" is a pseudo-selector itself, so it needs its own style block, like below ====*/
+
+.pr.nt.ed:before {
+    content: attr(data-text);
+    position: relative;
+    z-index: -1;
+    top: 0.17em;
+    left: 0 em;
+    -webkit-text-fill-color: #3232324d;
+    /*-webkit-background-clip: border-box;*/
+    transform: (skew(60deg, 0) scale(0.2, 0.2));
+}
+
+.prim-header nav{
+    border: solid 1px #648880;
+    border-radius: 5px;
+    height: 16%;
+    width: 68%;
+    align-items: center;
+    justify-items: center;
+    padding: 0.5% 0%;
+    background-color: #e9d7d7;
+    box-shadow: 0px 1px 5px 0px #648880;
+    margin-left: 5px;
+}
+
+/*==== Primary Footer- Selector "small" contains copy right sign ====*/ 
+
+.prim-footer small{
+    float: left;
+    padding: 30px 0px 30px 5px;
+    background: #ff00bf; 
+    background: -webkit-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #c67f03, #698f0173, #38721e, #0b13fd, #a804af);
+  /*background: -o-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #bafd0073, #55ac2f, #0b13fd, #a804af);
+    background: -moz-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #bafd0073, #55ac2f, #0b13fd, #a804af);
+    background: linear-gradient(to right, #b306a9, #ef2667, #f42e2c, #ffa509, #bafd0073, #55ac2f, #0b13fd, #a804af); */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.prim-footer{
+    padding: 30px 30px;
+}
+
+
+/*==== Padding between link"back-to-top" and nav ====*/
+.prim-footer nav{
+    padding: 0.5% 0%;
+    border: solid 1px #648880;
+    border-radius: 5px;
+    margin: 20px 0px 0px 5px;
+    height: 16%;
+    width: 100%;
+    background-color: #e9d7d7;
+    box-shadow: 0px 1px 10px 2px #648880;
+}
+
+/*==== target font of selector "a" directly to overwrite default ====*/   
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.head-bar a, .foot-bar a{
+    padding: 5px 5px 0px 10px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.head-bar a:hover, .foot-bar a:hover{
+    color: #648880;
+    font-weight: bold;
+    box-shadow:1px 1px 1px 2px #e99fbe;
+}
+    
+/*==== layout  Applied to the "vintage.html" file. Reusable ====*/
+/*==== a relatively positioned element reserves its previously occupied space ====*/
+.contnt, .container{
+    padding: 20px 20px;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+
+}
+
+.events{
+    width: 32%;
+    float: left;
+    margin: 0% 1.5%;   
+    border: solid 1px #a3ac9c;
+    border-radius: 10px;
+    background-color: #e1c1c1;
+    border: transparent;
+    padding: 0px;
+    text-align: center;
+}
+
+/*==== Absolute positioning places an element in relation to its relatively positioned container.====*/
+/*==== Places it out of normal flow, does not reserve previously occupied space ====*/
+.locations{
+    width: 31%;
+    float: right;
+    margin: 0% 1.5%;
+    border: solid 1px #a3ac9c;
+    border-radius: 10px;
+    background-color: #e4c0c0;
+    border: transparent;
+    clear: both;
+    left: 33.2%;
+    position: absolute ;
+    padding: 0px;
+    text-align: center;
+}
+
+.recreation{  
+    border: solid 1px #a3ac9c;
+    border-radius: 10px;
+    background-color: #e8d1d1;
+    border: transparent;
+    float: right;
+    position: absolute;
+    width: 31%;
+    margin: 0% 1.5%;
+    clear: both;
+    left: 64.8%;
+    padding: 0px;
+    text-align: center;
+}
+
+/*==== Box-Shadow (H-offset= right & left, V-offset= bottom & top, blur, spread, color) ====*/
+.events:hover, .locations:hover, .recreation:hover, aside:hover{
+    box-shadow: 2px -3px 7px 2px #e87b7b;
+
+}
+.purple:hover{
+    font: #d6478a;
+}
+/*==== Specify dimensions for img element of various classes ====*/
+.events img, .locations img, .recreation img{
+    width: 100%;
+    height: 200px;
+}
+
+
