@@ -334,7 +334,7 @@ footer{
 /*===== CSS for logo using "font-size" to target the first letter ====*/
 .pr.nt.ed span{
     text-transform: capitalize;
-    font-size: 2.5em;
+    font-size: 2.4em;
 }
 
 /*==== ":before" is a pseudo-selector itself, so it needs its own style block, like below ====*/
